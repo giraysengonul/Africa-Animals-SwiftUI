@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C47F4E702860F1AB00B4CECF /* covers.json in Resources */ = {isa = PBXBuildFile; fileRef = C47F4E6C2860F1AB00B4CECF /* covers.json */; };
+		C47F4E712860F1AB00B4CECF /* animals.json in Resources */ = {isa = PBXBuildFile; fileRef = C47F4E6D2860F1AB00B4CECF /* animals.json */; };
+		C47F4E722860F1AB00B4CECF /* locations.json in Resources */ = {isa = PBXBuildFile; fileRef = C47F4E6E2860F1AB00B4CECF /* locations.json */; };
+		C47F4E732860F1AB00B4CECF /* videos.json in Resources */ = {isa = PBXBuildFile; fileRef = C47F4E6F2860F1AB00B4CECF /* videos.json */; };
+		C47F4E7A2860F2AD00B4CECF /* VideoListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C47F4E792860F2AD00B4CECF /* VideoListView.swift */; };
+		C47F4E7C2860F2C500B4CECF /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C47F4E7B2860F2C500B4CECF /* MapView.swift */; };
+		C47F4E7E2860F2D600B4CECF /* GalleryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C47F4E7D2860F2D600B4CECF /* GalleryView.swift */; };
+		C47F4E802860F2E600B4CECF /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C47F4E7F2860F2E600B4CECF /* MainView.swift */; };
 		C4CCF4332860EEB90081213C /* Africa_Animals_SwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4CCF4322860EEB90081213C /* Africa_Animals_SwiftUIApp.swift */; };
 		C4CCF4352860EEB90081213C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4CCF4342860EEB90081213C /* ContentView.swift */; };
 		C4CCF4372860EEBD0081213C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C4CCF4362860EEBD0081213C /* Assets.xcassets */; };
@@ -24,6 +32,15 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C47F4E6C2860F1AB00B4CECF /* covers.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = covers.json; sourceTree = "<group>"; };
+		C47F4E6D2860F1AB00B4CECF /* animals.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = animals.json; sourceTree = "<group>"; };
+		C47F4E6E2860F1AB00B4CECF /* locations.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = locations.json; sourceTree = "<group>"; };
+		C47F4E6F2860F1AB00B4CECF /* videos.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = videos.json; sourceTree = "<group>"; };
+		C47F4E752860F23300B4CECF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		C47F4E792860F2AD00B4CECF /* VideoListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoListView.swift; sourceTree = "<group>"; };
+		C47F4E7B2860F2C500B4CECF /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		C47F4E7D2860F2D600B4CECF /* GalleryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GalleryView.swift; sourceTree = "<group>"; };
+		C47F4E7F2860F2E600B4CECF /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		C4CCF42F2860EEB90081213C /* Africa-Animals-SwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Africa-Animals-SwiftUI.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4CCF4322860EEB90081213C /* Africa_Animals_SwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Africa_Animals_SwiftUIApp.swift; sourceTree = "<group>"; };
 		C4CCF4342860EEB90081213C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -52,6 +69,30 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C47F4E742860F1B100B4CECF /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				C47F4E6D2860F1AB00B4CECF /* animals.json */,
+				C47F4E6C2860F1AB00B4CECF /* covers.json */,
+				C47F4E6E2860F1AB00B4CECF /* locations.json */,
+				C47F4E6F2860F1AB00B4CECF /* videos.json */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		C47F4E762860F27700B4CECF /* App */ = {
+			isa = PBXGroup;
+			children = (
+				C4CCF4322860EEB90081213C /* Africa_Animals_SwiftUIApp.swift */,
+				C4CCF4342860EEB90081213C /* ContentView.swift */,
+				C47F4E792860F2AD00B4CECF /* VideoListView.swift */,
+				C47F4E7B2860F2C500B4CECF /* MapView.swift */,
+				C47F4E7D2860F2D600B4CECF /* GalleryView.swift */,
+				C47F4E7F2860F2E600B4CECF /* MainView.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
 		C4CCF4262860EEB90081213C = {
 			isa = PBXGroup;
 			children = (
@@ -71,9 +112,10 @@
 		C4CCF4312860EEB90081213C /* Africa-Animals-SwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				C47F4E752860F23300B4CECF /* Info.plist */,
+				C47F4E742860F1B100B4CECF /* Data */,
 				C4CCF4542860EEEF0081213C /* Video */,
-				C4CCF4322860EEB90081213C /* Africa_Animals_SwiftUIApp.swift */,
-				C4CCF4342860EEB90081213C /* ContentView.swift */,
+				C47F4E762860F27700B4CECF /* App */,
 				C4CCF4362860EEBD0081213C /* Assets.xcassets */,
 				C4CCF4382860EEBD0081213C /* Preview Content */,
 			);
@@ -163,16 +205,20 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C47F4E702860F1AB00B4CECF /* covers.json in Resources */,
 				C4CCF44B2860EEE50081213C /* elephant.mp4 in Resources */,
 				C4CCF44A2860EEE50081213C /* rhino.mp4 in Resources */,
 				C4CCF44C2860EEE50081213C /* gorilla.mp4 in Resources */,
 				C4CCF43A2860EEBD0081213C /* Preview Assets.xcassets in Resources */,
 				C4CCF44D2860EEE50081213C /* hippo.mp4 in Resources */,
 				C4CCF44E2860EEE50081213C /* giraffe.mp4 in Resources */,
+				C47F4E722860F1AB00B4CECF /* locations.json in Resources */,
+				C47F4E712860F1AB00B4CECF /* animals.json in Resources */,
 				C4CCF4522860EEE50081213C /* zebra.mp4 in Resources */,
 				C4CCF4372860EEBD0081213C /* Assets.xcassets in Resources */,
 				C4CCF4532860EEE50081213C /* cheetah.mp4 in Resources */,
 				C4CCF4502860EEE50081213C /* lion.mp4 in Resources */,
+				C47F4E732860F1AB00B4CECF /* videos.json in Resources */,
 				C4CCF4512860EEE50081213C /* ostrich.mp4 in Resources */,
 				C4CCF44F2860EEE50081213C /* lioness.mp4 in Resources */,
 			);
@@ -186,7 +232,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				C4CCF4352860EEB90081213C /* ContentView.swift in Sources */,
+				C47F4E802860F2E600B4CECF /* MainView.swift in Sources */,
+				C47F4E7C2860F2C500B4CECF /* MapView.swift in Sources */,
 				C4CCF4332860EEB90081213C /* Africa_Animals_SwiftUIApp.swift in Sources */,
+				C47F4E7A2860F2AD00B4CECF /* VideoListView.swift in Sources */,
+				C47F4E7E2860F2D600B4CECF /* GalleryView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -318,11 +368,13 @@
 				DEVELOPMENT_TEAM = 5XZHHC4623;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Africa-Animals-SwiftUI/Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Dark;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -347,11 +399,13 @@
 				DEVELOPMENT_TEAM = 5XZHHC4623;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Africa-Animals-SwiftUI/Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Dark;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
