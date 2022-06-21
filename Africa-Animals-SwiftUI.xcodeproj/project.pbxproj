@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C47BA06D28618FAF00D1EAFC /* AnimalListItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C47BA06C28618FAF00D1EAFC /* AnimalListItemView.swift */; };
+		C47BA06F2861918300D1EAFC /* AnimalModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C47BA06E2861918300D1EAFC /* AnimalModel.swift */; };
 		C47F4E702860F1AB00B4CECF /* covers.json in Resources */ = {isa = PBXBuildFile; fileRef = C47F4E6C2860F1AB00B4CECF /* covers.json */; };
 		C47F4E712860F1AB00B4CECF /* animals.json in Resources */ = {isa = PBXBuildFile; fileRef = C47F4E6D2860F1AB00B4CECF /* animals.json */; };
 		C47F4E722860F1AB00B4CECF /* locations.json in Resources */ = {isa = PBXBuildFile; fileRef = C47F4E6E2860F1AB00B4CECF /* locations.json */; };
@@ -35,6 +37,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C47BA06C28618FAF00D1EAFC /* AnimalListItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalListItemView.swift; sourceTree = "<group>"; };
+		C47BA06E2861918300D1EAFC /* AnimalModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalModel.swift; sourceTree = "<group>"; };
 		C47F4E6C2860F1AB00B4CECF /* covers.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = covers.json; sourceTree = "<group>"; };
 		C47F4E6D2860F1AB00B4CECF /* animals.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = animals.json; sourceTree = "<group>"; };
 		C47F4E6E2860F1AB00B4CECF /* locations.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = locations.json; sourceTree = "<group>"; };
@@ -103,6 +107,7 @@
 			isa = PBXGroup;
 			children = (
 				C489FFF8286103DB00316C71 /* CoverImageView.swift */,
+				C47BA06C28618FAF00D1EAFC /* AnimalListItemView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -111,6 +116,7 @@
 			isa = PBXGroup;
 			children = (
 				C489FFFB286105A300316C71 /* CoverImageModel.swift */,
+				C47BA06E2861918300D1EAFC /* AnimalModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -265,9 +271,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				C4CCF4352860EEB90081213C /* ContentView.swift in Sources */,
+				C47BA06D28618FAF00D1EAFC /* AnimalListItemView.swift in Sources */,
 				C47F4E802860F2E600B4CECF /* MainView.swift in Sources */,
 				C489FFF9286103DB00316C71 /* CoverImageView.swift in Sources */,
 				C489FFFC286105A300316C71 /* CoverImageModel.swift in Sources */,
+				C47BA06F2861918300D1EAFC /* AnimalModel.swift in Sources */,
 				C47F4E7C2860F2C500B4CECF /* MapView.swift in Sources */,
 				C4CCF4332860EEB90081213C /* Africa_Animals_SwiftUIApp.swift in Sources */,
 				C47F4E7A2860F2AD00B4CECF /* VideoListView.swift in Sources */,
