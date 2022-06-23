@@ -33,6 +33,7 @@
 		C489FFF9286103DB00316C71 /* CoverImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C489FFF8286103DB00316C71 /* CoverImageView.swift */; };
 		C489FFFC286105A300316C71 /* CoverImageModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C489FFFB286105A300316C71 /* CoverImageModel.swift */; };
 		C489FFFF286106A500316C71 /* CodableBundleExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C489FFFE286106A500316C71 /* CodableBundleExtension.swift */; };
+		C4A9BA4D286450B4009450F4 /* AnimalGridItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4A9BA4C286450B4009450F4 /* AnimalGridItemView.swift */; };
 		C4CCF4332860EEB90081213C /* Africa_Animals_SwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4CCF4322860EEB90081213C /* Africa_Animals_SwiftUIApp.swift */; };
 		C4CCF4352860EEB90081213C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4CCF4342860EEB90081213C /* ContentView.swift */; };
 		C4CCF4372860EEBD0081213C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C4CCF4362860EEBD0081213C /* Assets.xcassets */; };
@@ -77,6 +78,7 @@
 		C489FFF8286103DB00316C71 /* CoverImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoverImageView.swift; sourceTree = "<group>"; };
 		C489FFFB286105A300316C71 /* CoverImageModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoverImageModel.swift; sourceTree = "<group>"; };
 		C489FFFE286106A500316C71 /* CodableBundleExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodableBundleExtension.swift; sourceTree = "<group>"; };
+		C4A9BA4C286450B4009450F4 /* AnimalGridItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalGridItemView.swift; sourceTree = "<group>"; };
 		C4CCF42F2860EEB90081213C /* Africa-Animals-SwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Africa-Animals-SwiftUI.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4CCF4322860EEB90081213C /* Africa_Animals_SwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Africa_Animals_SwiftUIApp.swift; sourceTree = "<group>"; };
 		C4CCF4342860EEB90081213C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -152,6 +154,7 @@
 				C47B92852862483C00E767D3 /* VideoPlayerView.swift */,
 				C47B1FD128630B5E00F5378E /* MapAnnotationView.swift */,
 				C47B1FD3286315A000F5378E /* MotionAnimationView.swift */,
+				C4A9BA4C286450B4009450F4 /* AnimalGridItemView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -335,6 +338,7 @@
 				C47B928228623FAE00E767D3 /* VideoModel.swift in Sources */,
 				C47F4E7E2860F2D600B4CECF /* GalleryView.swift in Sources */,
 				C47B1FD02863037500F5378E /* LocationModel.swift in Sources */,
+				C4A9BA4D286450B4009450F4 /* AnimalGridItemView.swift in Sources */,
 				C47BA07528619E5800D1EAFC /* InsetGalleryView.swift in Sources */,
 				C47B92842862400600E767D3 /* VideoListItemView.swift in Sources */,
 				C489FFFF286106A500316C71 /* CodableBundleExtension.swift in Sources */,
