@@ -1,5 +1,6 @@
 # Africa-Animals-SwiftUI
 
+![Finished App](https://github.com/hakkicansengonul/images/blob/master/AfricaScreen1.gif)  
 ![Finished App](https://github.com/hakkicansengonul/images/blob/master/AfricaAnimals1.gif)  
 ![Finished App](https://github.com/hakkicansengonul/images/blob/master/AfricaAnimals2.gif)  
  
